@@ -12,7 +12,8 @@ function prime(num){
     for(var index=0; index < factor.length; index++)
     {
         var current_number = factor[index];
-        if (isPrime(current_number) == true) {
+        if (isPrime(current_number) == true)
+        {
             primeFactor.push(current_number);
         }
     }
@@ -21,10 +22,11 @@ function prime(num){
 }
 
 function isPrime(num){
-for(var index=2; index<num; index++) {
-    if (num % index == 0)
-        return false;
-}
-        return true;
+    for(var index=2; index<num; index++)
+    {
+        if (num % index == 0)
+            return false;
+    }
+    return true;
 }
 prime(27)
