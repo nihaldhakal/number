@@ -1,6 +1,24 @@
-div {
+.keys {
     background-color: lightgrey;
-    width: 300px;
-    padding: 25px;
-    margin: 25px;
+    width: 650px;
+    height: 450px;
+    margin: 0px 300px 100px 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+.display{
+    margin: 50px 300px 0px 300px ;
+}
+.output{
+    width: 650px;
+    height: 70px;
+    font-size: 50px;
+    font-family: initial;
+}
+.input{
+    margin: 20px 20px 20px 30px;
+    width: 100px;
+    height: 40px;
 }
