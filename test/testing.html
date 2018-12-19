@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel ="stylesheet" href="testing.css">
 </head>
 <body>
-$END$
+<form id="myForm">
+    <div class="calculator">
+        <div class="display"> <input type="text" class="output" id="output"> </input></div>
+        <div class="keys">
+            <input type="button" class= "reset" id="clear" name = "clr" onclick="myFunction()"> </input>
+            <input type="button" class= "operator" id="divide" value="/"> </input>
+            <input type="button" class= "operator" id="multiply" value="*"> </input>
+            <input type="button" class= "operator" id="subtract" value="-"> </input>
+            <input type="button" class= "operator" id="addition" value="+"> </input>
+            <input type="button" class= "number" value="9"> </input>
+            <input type="button" class= "number" value="8"> </input>
+            <input type="button" class= "number" value="7"> </input>
+            <input type="button" class= "number" value="6"> </input>
+            <input type="button" class= "number" value="5"> </input>
+            <input type="button" class= "number" value="4"> </input>
+            <input type="button" class= "number"  value="1"> </input>
+            <input type="button" class= "number" value="2"> </input>
+            <input type="button" class= "number" value="3"> </input>
+            <input type="button" class= "number"  value="0"> </input>
+            <input type="button" class="number" id="decimal" value="."> </input>
+            <input type="button" class="operator" id="result" value="="> </input>
+        </div>
+    </div>
+</form>
+<script src="newtest.js"></script>
 </body>
 </html>
